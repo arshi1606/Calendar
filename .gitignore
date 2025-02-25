@@ -1,0 +1,9 @@
+# Ignore node_modules in the client and server directories
+client/node_modules/
+server/node_modules/
+
+# Ignore the server environment file (and any common variants)
+server/.env
+server/.env.local
+server/.env.development
+server/.env.production
